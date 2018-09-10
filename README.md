@@ -196,5 +196,5 @@ This command will plot the first and the aligned second trajectory to an image, 
 ```
 ## What are modified
 - Add point cloud module.
-- Provide a conversion tool for binary dictionary.
-- Provide a conversion tool for octree map.
+- Provide binary dictionary conversion tool.
+- Provide octree map conversion tool.
