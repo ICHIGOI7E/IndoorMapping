@@ -115,7 +115,7 @@ cmake -DVTK_QT_VERSION:STRING=5 -DQT_QMAKE_EXECUTABLE:PATH=/path/Qt5.8.0/5.8/gcc
 make
 ```
 ### PCL
-The Point Cloud Library ([PCL ](http://pointclouds.org/)) is a standalone, large scale, open project for 2D/3D image and point cloud processing.
+The Point Cloud Library ([PCL](http://pointclouds.org/)) is a standalone, large scale, open project for 2D/3D image and point cloud processing.
 ```
 cd pcl-pcl-1.8.1
 ```
