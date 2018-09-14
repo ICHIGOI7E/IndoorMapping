@@ -179,7 +179,7 @@ There are some useful manual commands, and we also provide some scripts to autom
 ./bin/rgbd_tum Vocabulary/ORBvoc.bin test/TUM1.yaml Dataset/rgbd_dataset_freiburg1_room test/associations/fr1_room.txt
 ```
 After this command, you can see the dense point cloud displayed in the viewer, like this:
-![](https://raw.githubusercontent.com/ichigoi7e/mdpics/master/indoor_mapping/1.png)
+![](https://raw.githubusercontent.com/ichigoi7e/mdpics/master/indoor_mapping/1.jpeg)
 ### Convert *.pcd to *.ot
 ```
 ./tools/pcd2octomap map.pcd map.ot
@@ -189,7 +189,7 @@ After this command, you can see the dense point cloud displayed in the viewer, l
 ./tools/evaluate_ate.py Dataset/rgbd_dataset_freiburg1_room/groundtruth.txt CameraTrajectory.txt --plot result.png
 ```
 This command will plot the first and the aligned second trajectory to an image, like this:
-![](https://raw.githubusercontent.com/ichigoi7e/mdpics/master/indoor_mapping/2.png)
+![](https://raw.githubusercontent.com/ichigoi7e/mdpics/master/indoor_mapping/2.jpeg)
 ### Print all evaluation data
 ```
 ./tools/evaluate_ate.py Dataset/rgbd_dataset_freiburg1_room/groundtruth.txt CameraTrajectory.txt --verbose
