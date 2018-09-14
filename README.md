@@ -180,7 +180,7 @@ There are some useful manual commands, and we also provide some scripts to autom
 ```
 After this command, you can see the dense point cloud displayed in the viewer, like this:
 
-
+&nbsp;
 ![](https://raw.githubusercontent.com/ichigoi7e/mdpics/master/indoor_mapping/1.jpeg)
 ### Convert *.pcd to *.ot
 ```
