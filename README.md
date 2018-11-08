@@ -196,6 +196,6 @@ This command will plot the first and the aligned second trajectory to an image, 
 ./tools/evaluate_ate.py Dataset/rgbd_dataset_freiburg1_room/groundtruth.txt CameraTrajectory.txt --verbose
 ```
 ## What are modified
-- Add dense point cloud module.
+- Add point cloud display module.
 - Add binary dictionary conversion tool.
 - Add octree map conversion tool.
