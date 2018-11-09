@@ -1,5 +1,5 @@
 # indoor_mapping
-This indoor mapping system is based on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2). Add point cloud module, you can visualize your point cloud map during the SLAM process.  We also provide some  conversion tools, such as binary dictionary and octree map (`indoor_mapping/tools/*`).
+This indoor mapping system is based on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2). Add point cloud map module, then you can visualize your point cloud map during the SLAM process. We also provide some conversion tools, such as binary dictionary and octree map (`indoor_mapping/tools/*`).
 ## Prerequisites
 Install some necessary dependencies for system operation, we have tested in **Ubuntu 16.04**.
 ### CMake
@@ -196,6 +196,6 @@ This command will plot the first and the aligned second trajectory to an image, 
 ./tools/evaluate_ate.py Dataset/rgbd_dataset_freiburg1_room/groundtruth.txt CameraTrajectory.txt --verbose
 ```
 ## What are modified
-- Add point cloud display module.
+- Add point cloud map module.
 - Add binary dictionary conversion tool.
 - Add octree map conversion tool.
