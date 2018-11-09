@@ -1,5 +1,5 @@
 # indoor_mapping
-This indoor mapping system is based on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2). Add point cloud map module, then you can visualize your point cloud map during the SLAM process. We also provide some conversion tools, such as binary dictionary and octree map (`indoor_mapping/tools/*`).
+This indoor mapping system is based on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2). Add point cloud map module, you can visualize your point cloud map during the SLAM process. We also provide some conversion tools, such as binary dictionary and octree map (`indoor_mapping/tools/*`).
 ## Prerequisites
 Install some necessary dependencies for system operation, we have tested in **Ubuntu 16.04**.
 ### CMake
