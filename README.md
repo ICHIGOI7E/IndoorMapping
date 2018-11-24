@@ -109,7 +109,7 @@ cd VTK-8.1.1
 mkdir build && cd build
 ```
 ```
-cmake -DVTK_QT_VERSION:STRING=5 -DQT_QMAKE_EXECUTABLE:PATH=/path/Qt5.8.0/5.8/gcc_64/bin/qmake -DVTK_Group_Qt:BOOL=ON -DCMAKE_PREFIX_PATH:PATH=/path/Qt5.8.0/5.8/gcc_64/lib/cmake -DBUILD_SHARED_LIBS:BOOL=ON ..
+cmake -DVTK_QT_VERSION:STRING=5 -DQT_QMAKE_EXECUTABLE:PATH=[PATH]/Qt5.8.0/5.8/gcc_64/bin/qmake -DVTK_Group_Qt:BOOL=ON -DCMAKE_PREFIX_PATH:PATH=[PATH]/Qt5.8.0/5.8/gcc_64/lib/cmake -DBUILD_SHARED_LIBS:BOOL=ON ..
 ```
 ```
 make
