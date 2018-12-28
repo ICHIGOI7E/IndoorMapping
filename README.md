@@ -1,5 +1,5 @@
-# indoor_mapping
-This indoor mapping system is based on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2). Add point cloud map module, you can visualize your point cloud map during the SLAM process. We also provide some conversion tools, such as binary dictionary and octree map (`indoor_mapping/tools/*`).
+# IndoorMapping
+This indoor mapping system is based on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2). Add point cloud map module, you can visualize your point cloud map during the SLAM process. We also provide some conversion tools, such as binary dictionary and octree map (`IndoorMapping/tools/*`).
 ## Prerequisites
 Install some necessary dependencies for system operation, we have tested in **Ubuntu 16.04**.
 ### CMake
@@ -158,10 +158,10 @@ sudo make install
 [Computer Vision Group - Dataset Download](https://vision.in.tum.de/data/datasets/rgbd-dataset/download)
 ## How to install
 ```
-git clone https://github.com/ichigoi7e/indoor_mapping.git
+git clone https://github.com/ichigoi7e/IndoorMapping.git
 ```
 ```
-cd indoor_mapping
+cd IndoorMapping
 ```
 ```
 mkdir build && cd build
@@ -173,7 +173,7 @@ cmake ..
 make
 ```
 ## Run examples
-There are some useful manual commands, and we also provide some scripts to automate (`indoor_mapping/*.sh`).
+There are some useful manual commands, and we also provide some scripts to automate (`IndoorMapping/*.sh`).
 ### Run test
 ```
 ./bin/rgbd_tum Vocabulary/ORBvoc.bin test/TUM1.yaml Dataset/rgbd_dataset_freiburg1_room test/associations/fr1_room.txt
