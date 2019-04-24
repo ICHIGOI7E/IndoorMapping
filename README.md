@@ -89,7 +89,7 @@ $ sudo make install
 The [OctoMap](https://octomap.github.io/) library implements a 3D occupancy grid mapping approach, providing data structures and mapping algorithms in C++ particularly suited for robotics.
 ```
 $ sudo apt-get install libqglviewer-dev-qt4
-$ git clone https://github.com/OctoMap/octomap
+$ git clone https://github.com/OctoMap/octomap.git
 $ cd octomap
 $ mkdir build && cd build
 $ cmake ..
