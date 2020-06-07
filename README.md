@@ -100,7 +100,7 @@ $ sudo make install
 [Computer Vision Group - Dataset Download](https://vision.in.tum.de/data/datasets/rgbd-dataset/download)
 ## How to install
 ```
-$ git clone https://github.com/ichigoi7e/IndoorMapping.git
+$ git clone https://github.com/was48i/IndoorMapping.git
 $ cd IndoorMapping
 $ mkdir build && cd build
 $ cmake ..
